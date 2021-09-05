@@ -1,0 +1,13 @@
+@import "loginform.css";
+@import "quote.css";
+@import "backgroundimg.css";
+@import "clock.css";
+@import "todo.css";
+@import "weather.css";
+
+.hidden {
+  display: none;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}

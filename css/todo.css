@@ -1,0 +1,37 @@
+#todo-list {
+  list-style: none;
+  margin-left: -12%;
+}
+#todo-list li span {
+  color: white;
+}
+#todo-form {
+}
+#todo-form input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 18px;
+  color: white;
+  border-bottom: solid 1px rgb(255, 255, 255);
+  width: 300px;
+  height: 40px;
+}
+#todo-form input:focus {
+  outline: rgba(0, 0, 0, 0);
+}
+#todo-form input::placeholder {
+  color: white;
+}
+
+#todo {
+  position: absolute;
+  top: 70%;
+  left: 100px;
+}
+#todo-list li {
+  font-size: 20px;
+}
+#todo-list li button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}

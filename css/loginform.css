@@ -1,0 +1,50 @@
+#user-login-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+#user-login-info #greeting {
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
+}
+#user-login-info > button {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#login-form input {
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 600px;
+  height: 80px;
+  color: white;
+  font-size: 40px;
+  border: none;
+  font-weight: 700;
+}
+#login-form input::placeholder {
+  color: white;
+}
+#login-form button {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#login-form input:focus {
+  outline: rgba(0, 0, 0, 0);
+}
+
+#stay-time {
+  margin-top: -32px;
+}

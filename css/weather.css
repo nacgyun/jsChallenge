@@ -1,0 +1,11 @@
+#weather span {
+  color: white;
+  font-size: 48px;
+  display: block;
+  font-weight: 700;
+}
+#weather {
+  position: absolute;
+  right: 60px;
+  top: 35px;
+}
